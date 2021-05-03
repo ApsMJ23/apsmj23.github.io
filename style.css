@@ -1,3 +1,23 @@
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+    .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -14,13 +34,8 @@ html {
 }
 
 .container {
-    height: 100%;
-    display: flex;
-    align-content: center;
-    justify-content: left;
-    align-items: center;
-    vertical-align: middle;
-    padding: 70px 90px;
+    padding-top: 90px;
+    padding-bottom: 50px;
 }
 
 .display-1 {
@@ -48,7 +63,6 @@ html {
 .profile_img {
     animation: fadeInLeft;
     animation-duration: 2s;
-    max-height: 250px;
     border-radius: 50%;
 }
 

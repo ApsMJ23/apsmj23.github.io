@@ -42,25 +42,31 @@
     </div>
     <div class="parallax">
         <!--Main Page-->
-        <div class="container">
-            <img src="dp.jpg" class="profile_img">
+        <div class="container-fluid">
             <div class="row">
-                <h1 class="display-1">Hello! I am Apurv Singh</h1>
-                <h5 id="desc">And I am a Django web developer</h3>
+                <div class="col-md-12">
+                    <div class="text-center img-fluid">
+                        <img src="dp.jpg" class="profile_img">
+                        <h1 class="display-1">Hello! I am Apurv Singh</h1>
+                        <h5 id="desc">And I am a Django web developer</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!--About us Section-->
-    <div class="container" id="about_us">
-        <h1 id="about_heading">About Me</h1>
+    <div class="container-fluid" id="about_us">
         <div class="row">
-            <p>Creating web applications gives me the utmost joy, it gives me a sense of achievement. The ability to code, which innovates the user interface to optimum gives me satisfaction, I believe that I am a perfectionist and this can be seen in my
-                code. I love programming because it is infinite and constantly changing. It has more potential for innovation, experimentation and discovery.</p>
-            <p>I am compelled to create smoother softwares as nobody, including me, likes slow and outdated technology. I hope that the improvements I make can improve the world.
-            </p>
-            <p>My approach is simple: l think to make something great, one should think about how they would like it to be? Personal touch is important. Because isn’t homemade always better than fast fare? Join me, and let’s build a better modern web!</p>
+            <div class="col-md-3 text-center">
+                <h1 id="about_heading">About Me</h1>
+            </div>
+            <div class="col-md-9 " style="padding: 20px;">
+                Creating web applications gives me the utmost joy, it gives me a sense of achievement. The ability to code, which innovates the user interface to optimum gives me satisfaction, I believe that I am a perfectionist and this can be seen in my code. I love
+                programming because it is infinite and constantly changing. It has more potential for innovation, experimentation and discovery.<br><br> I am compelled to create smoother softwares as nobody, including me, likes slow and
+                outdated technology. I hope that the improvements I make can improve the world.<br> <br> My approach is simple: l think to make something great, one should think about how they would like it to be? Personal touch is important. Because
+                isn’t homemade always better than fast fare? Join me, and let’s build a better modern web!
+            </div>
         </div>
-    </div>
     </div>
     <div class="parallax" style="overflow-x: hidden;">
         <!--Experience Setion-->
