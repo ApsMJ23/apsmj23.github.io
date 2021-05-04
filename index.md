@@ -29,7 +29,7 @@
         <button class="navbar-toggler" data-target="#navi" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div id="navi" class="collapse navbar-collapse">
+        <div id="navi" class="collapse navbar-collapse fixed-top">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#about_us">About Us</a>
