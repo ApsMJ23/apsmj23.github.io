@@ -23,7 +23,7 @@
 
 <body id="bdy">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="my-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="my-nav">
         <a href="#main_page"> <img src="AS logo.png" id="nav_logo"></a>
         <a class="navbar-brand" id="n_brand" href="#main_page">Apurva Singh</a>
         <button class="navbar-toggler" data-target="#navi" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
