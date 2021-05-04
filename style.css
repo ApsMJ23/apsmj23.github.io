@@ -1,29 +1,8 @@
-@media only screen and (max-width:800px) {
-    /* For tablets: */
-    .main {
-        width: 80%;
-        padding: 0;
-    }
-    .right {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .menu,
-    .main,
-    .right {
-        width: 100%;
-    }
-}
-
 html {
     scroll-behavior: smooth;
 }
 
 #n_brand {
-    font-size: 30px;
     color: white;
     font-family: 'Zen Dots', cursive;
     font-weight: bolder;
@@ -31,11 +10,6 @@ html {
 
 .navbar {
     background-color: black !important;
-}
-
-.container {
-    padding-top: 90px;
-    padding-bottom: 50px;
 }
 
 .display-1 {
@@ -63,7 +37,6 @@ html {
 .profile_img {
     animation: fadeInLeft;
     animation-duration: 2s;
-    border-radius: 50%;
 }
 
 #nav_logo {
@@ -100,13 +73,10 @@ p {
 .flip-card {
     position: relative;
     border-radius: 10%;
-    margin: 20px;
     background-color: transparent;
-    min-width: 35%;
-    min-height: 100%;
-    width: 150px;
-    height: 280px;
     overflow: hidden;
+    height: 20rem;
+    width: 20rem;
     box-shadow: 20px 20px 50px black;
     perspective: 1000px;
     /* Remove this if you don't want the 3D effect */
@@ -154,56 +124,40 @@ p {
 #omfuel_img,
 #awesome_img {
     background-color: black;
-    min-width: auto;
-    max-width: 300px;
-    margin-top: 12%;
-    padding: 50px;
+    margin-top: 7rem;
+    padding: 1rem;
 }
 
 #work_title {
     color: black;
     font-weight: bolder;
-    font-size: 60px;
-    margin-top: 30px;
-    text-align: center;
+    font-size: 4rem;
     font-family: 'Zen Dots', cursive;
-}
-
-#education_list {
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-#img_container {
-    grid-gap: 150px;
 }
 
 #tec_container {
     background-color: rgba(0, 0, 0, 0.5);
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 40px;
-}
-
-img {
-    box-sizing: 80px;
-    max-width: 250px;
-    max-height: 200px;
 }
 
 #tech_title {
     color: black;
     font-weight: bolder;
-    font-size: 60px;
-    padding-top: 60px;
-    margin-bottom: 60px;
-    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
     font-family: 'Zen Dots', cursive;
 }
 
 #about_container {
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 150px;
+    font-size: 1rem;
+    padding-top: 3vw !important;
+    padding-bottom: 5rem !important;
+}
+
+#about_us {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+address {
+    font-size: 1rem;
 }

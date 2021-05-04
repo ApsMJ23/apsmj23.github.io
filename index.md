@@ -153,12 +153,10 @@
             <a class="btn" href="mailto:apurvalion@gmail.com" role="button"><i class="fab fa-google" style="font-size: 40px;"></i></a>
             <a class="btn" href="https://www.linkedin.com/in/apurva-singh-358151159/" role="button"><i class="fab fa-linkedin" style="font-size: 40px;"></i></a>
             <a class="btn" href="https://www.instagram.com/apurvawithan_a/" role="button"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>
-
         </footer>
         <footer style="text-align: right;">
             Made By Apurva Singh &#169;
         </footer>
-
     </div>
 </body>
 
